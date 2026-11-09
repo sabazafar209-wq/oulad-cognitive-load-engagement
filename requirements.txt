@@ -6,4 +6,3 @@ shap
 matplotlib
 seaborn
 joblib
-scipy
