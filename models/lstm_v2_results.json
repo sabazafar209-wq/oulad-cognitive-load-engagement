@@ -1,0 +1,12 @@
+{
+  "macro_f1": 0.544790352008892,
+  "n_sequences": 25793,
+  "classes": [
+    "high",
+    "low",
+    "medium"
+  ],
+  "seq_len_min": 1,
+  "seq_len_median": 25,
+  "seq_len_max": 43
+}

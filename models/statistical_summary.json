@@ -1,0 +1,82 @@
+{
+  "summary": {
+    "v1_strict__A_weighted": {
+      "macro_f1_mean": 0.4825278330981465,
+      "macro_f1_std": 0.003912235314442877,
+      "high_f1_mean": 0.2437215840402011,
+      "high_f1_std": 0.01043838207209229,
+      "high_precision_mean": 0.18997586615377168,
+      "high_precision_std": 0.006368472735359885,
+      "high_recall_mean": 0.3412151067323481,
+      "high_recall_std": 0.03015271968771895
+    },
+    "v2_entangled__A_weighted": {
+      "macro_f1_mean": 0.5364242444118887,
+      "macro_f1_std": 0.02228494128683074,
+      "high_f1_mean": 0.39025845917256285,
+      "high_f1_std": 0.023212959307221358,
+      "high_precision_mean": 0.2561119184824915,
+      "high_precision_std": 0.023934406592406227,
+      "high_recall_mean": 0.8303191489361703,
+      "high_recall_std": 0.048108166189766
+    },
+    "v2_entangled__B_focal": {
+      "macro_f1_mean": 0.4294814659507403,
+      "macro_f1_std": 0.04695595237678299,
+      "high_f1_mean": 0.30581475729440727,
+      "high_f1_std": 0.03752008921132041,
+      "high_precision_mean": 0.1822991836072805,
+      "high_precision_std": 0.02722510493270601,
+      "high_recall_mean": 0.9670212765957447,
+      "high_recall_std": 0.02390660112153639
+    },
+    "v2_entangled__C_oversample": {
+      "macro_f1_mean": 0.5387974073597165,
+      "macro_f1_std": 0.010808636286336232,
+      "high_f1_mean": 0.39620982729095855,
+      "high_f1_std": 0.013667127199715438,
+      "high_precision_mean": 0.2599889893650038,
+      "high_precision_std": 0.01542704257981601,
+      "high_recall_mean": 0.8393617021276596,
+      "high_recall_std": 0.05317818982671199
+    },
+    "v2_entangled__D_focal_over": {
+      "macro_f1_mean": 0.5033788101910316,
+      "macro_f1_std": 0.021597829169421084,
+      "high_f1_mean": 0.38978500674317307,
+      "high_f1_std": 0.01461013418933506,
+      "high_precision_mean": 0.2550726313969016,
+      "high_precision_std": 0.017293493892298603,
+      "high_recall_mean": 0.8361702127659575,
+      "high_recall_std": 0.06431552766039084
+    }
+  },
+  "wilcoxon_imbalance_regimes": {
+    "A (baseline) vs C (oversample)": {
+      "stat": 5.0,
+      "p": 0.625,
+      "mean_diff": 0.002373162947827745
+    },
+    "A (baseline) vs B (focal)": {
+      "stat": 0.0,
+      "p": 0.0625,
+      "mean_diff": -0.10694277846114841
+    },
+    "A (baseline) vs D (focal+over)": {
+      "stat": 0.0,
+      "p": 0.0625,
+      "mean_diff": -0.03304543422085715
+    },
+    "C (oversample) vs D (focal+over)": {
+      "stat": 0.0,
+      "p": 0.0625,
+      "mean_diff": -0.035418597168684895
+    }
+  },
+  "entangled_vs_strict": {
+    "mann_whitney_u": 25.0,
+    "p_value": 0.003968253968253968,
+    "entangled_mean": 0.5364242444118887,
+    "strict_mean": 0.4825278330981465
+  }
+}

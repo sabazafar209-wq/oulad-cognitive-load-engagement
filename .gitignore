@@ -1,0 +1,9 @@
+data/raw/*
+!data/raw/.gitkeep
+data/oulad_weekly_clicks.csv
+data/*.pkl
+data/oulad_sequences_raw.csv
+models/*.joblib
+models/*.pt
+__pycache__/
+.ipynb_checkpoints/
